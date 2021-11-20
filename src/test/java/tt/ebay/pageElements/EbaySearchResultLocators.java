@@ -33,4 +33,8 @@ public class EbaySearchResultLocators {
 	@FindBy(xpath="//*[contains(text(),'Unbranded')]")
 	public WebElement txtUnbranded;
 	
+	//Validate Unbranded
+	@FindBy(xpath="//*[contains(text(),'Big & Tall Cotton Tee')]")
+	public WebElement lnkShirtItems;
+	
 }

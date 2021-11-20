@@ -47,4 +47,8 @@ public class EbaySearchResultAction {
 			EbaySearchResultLocatorsObj.txtUnbranded.isDisplayed();
 		}
 	}
+	
+	public void selectBigTallCottonTee(){
+		EbaySearchResultLocatorsObj.lnkShirtItems.click();
+	}
 }
