@@ -1,0 +1,669 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4065662300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search for items with Brands",
+        "description": "",
+        "id": "ebay-brand-outline;search-for-items-with-brands;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 723959100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 875574400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "EbaySearchSteps.open_Ebay_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3168604200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for \"Shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shoes",
+                  "offset": 12
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4703901900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filter by \"Nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nike",
+                  "offset": 11
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.filter_by(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3060081900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Item list should have products of \"Nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nike",
+                  "offset": 35
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.item_list_should_have_products_of(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3471044800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search for items with Brands",
+        "description": "",
+        "id": "ebay-brand-outline;search-for-items-with-brands;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 682176900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 904074600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "EbaySearchSteps.open_Ebay_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4476466200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for \"Shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shirts",
+                  "offset": 12
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3007172700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filter by \"Adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adidas",
+                  "offset": 11
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.filter_by(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000497300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Item list should have products of \"Adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adidas",
+                  "offset": 35
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.item_list_should_have_products_of(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3127899100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search for items with Brands",
+        "description": "",
+        "id": "ebay-brand-outline;search-for-items-with-brands;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 656350800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 762303100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "EbaySearchSteps.open_Ebay_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2932918000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for \"Pants\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pants",
+                  "offset": 12
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5005358700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filter by \"Unbranded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Unbranded",
+                  "offset": 11
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.filter_by(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3062985000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Item list should have products of \"Unbranded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Unbranded",
+                  "offset": 35
+                }
+              ],
+              "location": "EbayBrandOutlineSteps.item_list_should_have_products_of(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Brand Outline",
+    "description": "",
+    "id": "ebay-brand-outline",
+    "keyword": "Feature",
+    "uri": "EbayBrandOutline.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2948508000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add product to cart using drop down options",
+        "description": "",
+        "id": "ebay-cart-functionality;add-product-to-cart-using-drop-down-options",
+        "after": [
+          {
+            "result": {
+              "duration": 693853300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 743828300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "EbaySearchSteps.open_Ebay_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2010370400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for shirt",
+            "match": {
+              "location": "EbayCartDropDownSteps.search_for_shirt()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332500700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select first shirt on item list",
+            "match": {
+              "location": "EbayCartDropDownSteps.select_first_shirt_on_item_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7187201900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select size",
+            "match": {
+              "location": "EbayCartDropDownSteps.select_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7173584400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select men size",
+            "match": {
+              "location": "EbayCartDropDownSteps.select_men_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2160177700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select shade",
+            "match": {
+              "location": "EbayCartDropDownSteps.select_shade()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5135435500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Shirt Quantity",
+            "match": {
+              "location": "EbayCartDropDownSteps.shirt_Quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5114297400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Add to shopping cart",
+            "match": {
+              "location": "EbayCartDropDownSteps.add_to_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Cart Functionality",
+    "description": "",
+    "id": "ebay-cart-functionality",
+    "keyword": "Feature",
+    "uri": "EbayCartDropDown.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3177934400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search for shoes",
+        "description": "",
+        "id": "ebay-search-functionality;search-for-shoes",
+        "after": [
+          {
+            "result": {
+              "duration": 684089000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 967969600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "EbaySearchSteps.open_Ebay_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3227170000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for shoes",
+            "match": {
+              "location": "EbaySearchSteps.search_for_shoes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 308152100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Item list should have only shoes related products",
+            "match": {
+              "location": "EbaySearchSteps.item_list_should_have_only_shoes_related_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Search Functionality",
+    "description": "",
+    "id": "ebay-search-functionality",
+    "keyword": "Feature",
+    "uri": "EbaySearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2959813100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Ebay Summary Mousehover",
+        "description": "",
+        "id": "ebay-summary-mousehover;ebay-summary-mousehover",
+        "after": [
+          {
+            "result": {
+              "duration": 690359100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 852585600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Ebay Homepage",
+            "match": {
+              "location": "EbaySearchSteps.open_Ebay_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3364374600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Mouse Hover to MyEbay Summary",
+            "match": {
+              "location": "EbaySummaryMouseHoverSteps.mouse_Hover_to_MyEbay_Summary()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6082176500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Summary",
+            "match": {
+              "location": "EbaySummaryMouseHoverSteps.click_on_Summary()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Summary Mousehover",
+    "description": "",
+    "id": "ebay-summary-mousehover",
+    "keyword": "Feature",
+    "uri": "EbaySummaryMouseHover.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

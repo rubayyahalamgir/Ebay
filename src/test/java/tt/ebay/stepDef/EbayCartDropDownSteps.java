@@ -27,10 +27,21 @@ public class EbayCartDropDownSteps {
 		EbayCartPageActionsObj.switchNewWindow();
 		EbayCartPageActionsObj.selectSizeFromDd();
 	}
+	
+
+	@When("^Select men size$")
+	public void select_men_size() throws Throwable {
+		EbayCartPageActionsObj.selectMenSizeFromDd();
+	}
 
 	@When("^Select shade$")
 	public void select_shade() throws Throwable {
 		EbayCartPageActionsObj.selectShadeFromDd();
+	}
+	
+	@When("^Shirt Quantity$")
+	public void shirt_Quantity() throws Throwable {
+		EbayCartPageActionsObj.shirtQuantity();
 	}
 
 	@Then("^Add to shopping cart$")

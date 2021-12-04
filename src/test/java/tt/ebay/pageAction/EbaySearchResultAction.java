@@ -23,6 +23,9 @@ public class EbaySearchResultAction {
 		
 		//Option:2
 		Assert.assertEquals("shoes", EbaySearchResultLocatorsObj.txtShoes.getText());
+		
+		//Option:3
+		Assert.assertTrue(EbaySearchResultLocatorsObj.txtShoes.isDisplayed());
 	}
 	
 	public void filterBrand(String brand) throws Exception{

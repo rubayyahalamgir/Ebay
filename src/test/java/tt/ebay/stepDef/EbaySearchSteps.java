@@ -26,3 +26,4 @@ public class EbaySearchSteps {
 		EbaySearchResultActionObj.verifyShoesItems();
 	}
 }
+

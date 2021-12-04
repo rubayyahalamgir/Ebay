@@ -6,5 +6,7 @@ Feature: Ebay Cart Functionality
 		When Search for shirt
 		And Select first shirt on item list
 		And Select size
+		And Select men size
 		And Select shade
+		And Shirt Quantity
 		Then Add to shopping cart
