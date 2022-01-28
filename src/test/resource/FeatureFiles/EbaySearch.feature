@@ -1,4 +1,4 @@
-@regression
+@regression @smoke
 Feature: Ebay Search Functionality 
 
 	Scenario: Search for shoes
